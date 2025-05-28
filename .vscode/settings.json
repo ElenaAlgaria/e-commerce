@@ -7,5 +7,9 @@
        "strings": true
     },
 
-    "tailwindCSS.experimental.configFile": "src/styles.scss"
+    "tailwindCSS.experimental.configFile": "src/styles.scss",
+
+    "workbench.colorCustomizations": {
+  "editorGhostText.foreground": "#888888" 
+}
 }

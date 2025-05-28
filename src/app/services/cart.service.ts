@@ -12,5 +12,10 @@ export class CartService {
     this.cart.set([...this.cart(),product]);
   }
 
+
+  removeFromCart(id: number){
+    this.cart.set(this.cart().filter(product => product.id !== id));
+  }
+
   constructor() { }
 }
